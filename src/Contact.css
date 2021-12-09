@@ -41,12 +41,14 @@ textarea#message {
   border: 2px solid hsla(0, 100%, 99%, 0.575);
 }
 .btn.contact.pointer {
-  margin: 20px 0px;
+  margin: 25px 0px;
+  padding-top: 500;
   color: white;
+  border-radius: 30px;
   background-color: blueviolet;
 }
 .btn.contact.pointer:hover {
   color: white;
   background-color: transparent;
-  border: blueviolet;
+  border-color: blueviolet;
 }
