@@ -27,7 +27,7 @@ input.contact {
   font-size: 15px;
   letter-spacing: 0.1px;
   background: none;
-  border: 2px solid hsla(0, 0%, 100%, 0.2);
+  border: 2px solid hsla(0, 100%, 99%, 0.575);
 }
 textarea#message {
   height: 120px;
@@ -38,13 +38,15 @@ textarea#message {
   color: #fff;
   font-size: 15px;
   letter-spacing: 0.1px;
-  border: 2px solid hsla(0, 0%, 100%, 0.2);
+  border: 2px solid hsla(0, 100%, 99%, 0.575);
 }
 .btn.contact.pointer {
   margin: 20px 0px;
-  background-color: none;
+  color: white;
+  background-color: blueviolet;
 }
-.btn .contact .pointer:hover {
-  background-color: violet;
-  border: white;
+.btn.contact.pointer:hover {
+  color: white;
+  background-color: transparent;
+  border: blueviolet;
 }
