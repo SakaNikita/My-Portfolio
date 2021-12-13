@@ -76,6 +76,10 @@ p {
 .sweet {
   color: rgb(134, 61, 202);
 }
+#home-title{
+  text-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #b082db50,
+0 0 70px #61148d, 0 0 80px #3d0b66;
+}
 .row {
   display: flex;
   width: 100%;

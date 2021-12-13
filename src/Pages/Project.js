@@ -1,11 +1,11 @@
 import React from "react";
 import "./Project.css";
-import Project1 from "./img/Project4.png";
-import Project2 from "./img/Project2.png";
-import Project3 from "./img/Project1.png";
-import Project4 from "./img/Project3.png";
-import Project5 from "./img/Project5.png";
-import Project6 from "./img/Project6.png";
+import Project1 from "../img/Project4.png";
+import Project2 from "../img/Project2.png";
+import Project3 from "../img/Project1.png";
+import Project4 from "../img/Project3.png";
+import Project5 from "../img/Project5.png";
+import Project6 from "../img/Project6.png";
 
 function Project() {
   return (

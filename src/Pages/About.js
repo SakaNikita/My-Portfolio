@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/Profil.jpg";
-import CV from "./CVSAKA-NIKITA.pdf";
+import aboutImg from "../img/Profil.jpg";
+import CV from "../CVSAKA-NIKITA.pdf";
 function About() {
   //  Up To Top Btn
   window.addEventListener("scroll", function () {
@@ -38,13 +38,8 @@ function About() {
                 <a href={CV} target="_blank" class="cta">
                   <button className="about_btn">Download Cv</button>
                 </a>
-                <a href="./Contact.js">
-                  <button
-                    className="about_btn"
-                    onClick={() => window.location.replace("/#Contact")}
-                  >
-                    Contact Me
-                  </button>
+                <a href="#Contact">
+                  <button className="about_btn">Contact Me</button>
                 </a>
               </div>
             </div>
